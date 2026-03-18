@@ -104,7 +104,7 @@ const TypeTable = () => {
 
       {/* SUBTÍTULO MOBILE */}
       <p className="text-center text-[10px] md:hidden font-bold uppercase tracking-[0.2em] text-wiki-cyan mb-10">
-        ( Arraste lateralmente para ver as fraquezas )
+        ( Arraste lateralmente para ver as fraquezas caso não apareça em sua tela! )
       </p>
 
       <div className="overflow-x-auto">
