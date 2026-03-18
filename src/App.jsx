@@ -108,7 +108,7 @@ const TypeTable = () => {
       </p>
 
       <div className="overflow-x-auto">
-        <table className="w-full text-left border-collapse min-w-[700px]">
+        <table className="w-full text-left border-collapse min-w-175]">
           <thead>
             <tr className="bg-white/5 text-wiki-cyan uppercase text-xs md:text-sm tracking-widest border-b border-white/20">
               <th className="p-4 md:p-8 font-black underline decoration-wiki-red underline-offset-8">Tipo</th>
@@ -120,7 +120,7 @@ const TypeTable = () => {
             {types.map((t, index) => (
               <tr
                 key={index}
-                className="border-b border-white/5 hover:bg-white/5 transition-colors odd:bg-white/[0.02]"
+                className="border-b border-white/5 hover:bg-white/5 transition-colors odd:bg-white/2"
               >
                 <td className="p-4 md:p-6 font-bold text-white uppercase italic tracking-tighter text-sm md:text-base">{t.name}</td>
                 <td className="p-4 md:p-6 text-gray-400 text-sm md:text-base font-medium">{t.atk}</td>
